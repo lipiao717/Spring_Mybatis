@@ -9,7 +9,7 @@ public class Orderdetail {
 
     private Integer itemsNum;
     
-    //明细对应的商品信�?
+    //明细对应的商品信息
     private Items items;
     
 
@@ -55,10 +55,8 @@ public class Orderdetail {
 
 	@Override
 	public String toString() {
-		return "Orderdetail [id=" + id + ", ordersId=" + ordersId + ", itemsId=" + itemsId + ", itemsNum=" + itemsNum
-				+ ", items=" + items + "]";
+		return "Orderdetail [id=" + id + ", ordersId=" + ordersId
+				+ ", itemsId=" + itemsId + ", itemsNum=" + itemsNum + "]";
 	}
-
-	
     
 }
